@@ -24,7 +24,8 @@
     (modulolist lon)))
 
 (check-expect (cubic-cong 513 262148 4100 0 8 0 8)(list 0 2 4 6 8))
-;;如果想计算higher power equation，在";*" 的地方进行修改
+
+;;if want to calculate higher power equation，make arrangement at where "*" are.
 
 ;;*************** quadratic-congruence-calculator***********
 (define (quadratic-cong a b c d x0 xn)
